@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Validate CPF</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+  <section>
+    <div class="global-container">
+      <div class="main-content">
+        <div class="cpf-card">
+          <div class="title">
+            <h1>Validar</h1>
+          </div>
+          <div class="container">
+            <p>
+              Insira abaixo o CPF que deseja validar.
+            </p>
+            <div>
+              <input type="text" name="input-cpf" class="input-cpf" maxlength="14">
+              <input type="text" name="display" class="display validate-display" value="" disabled>
+              <button class="cpf-button validate-button">Validar</button>
+            </div>
+          </div>
+        </div>
+        <div class="cpf-card">
+          <div class="title">
+            <h1>Gerar</h1>
+          </div>
+          <div class="container">
+            <p>
+              Gere um CPF valido abaixo.
+            </p>
+            <div>
+              <input type="text" name="display" class="display generate-display" value="" disabled>
+              <button class="cpf-button generate-button">Gerar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer>
+        <a href="https://github.com/Lucariozin" target="_blank" rel="nofollow">Feito com <span>❤</span> por Lucas Felix</a>
+      </footer>
+    </div>
+  </section>
+
+  <script src="./assets/js/validador.js"></script>
+  <script src="./assets/js/main.js"></script>
+</body>
+</html>
