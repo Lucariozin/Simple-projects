@@ -2,7 +2,7 @@
 
 Validação de formulário feita pelo Front-end utilizando Class.
  
-[veja o resultado](https://lucariozin.github.io/Formulario/formulario/)
+[veja o resultado](https://lucariozin.github.io/Simple-projects/Formulario/formulario/)
 
 ***
 
